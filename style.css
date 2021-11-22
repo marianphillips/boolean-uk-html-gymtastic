@@ -1,0 +1,119 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    background-color: hsl(203deg 52% 43%);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.span-header {
+    padding: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.margin {
+    padding:10px;
+    margin: 20px;
+}
+
+h1 {
+    color: hsl(203deg 52% 43%); 
+ }
+
+p {
+    padding:10px 0px;
+}
+
+.span-membership {
+    padding: 13px 20px;
+    border: solid 2px coral;
+    border-radius: 15%;
+    color: coral;
+    background-color: white;
+}
+
+.span-social {
+    padding: 13px 30px;
+    border: solid 1px black;
+    border-radius: 15%;
+    margin: 15px 10px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.span-one {
+    background-color: rgba(135,75,244,255);
+    margin-left: 0px;
+}
+
+.span-two {
+    background-color: #3578ea;    
+}
+
+.span-three {
+    background-color: #ea3223;
+}
+
+
+.list {
+    background-color: hsl(203deg 52% 43%);
+    color: white;
+    padding: 10px;
+}
+
+ul, ol {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.popular {
+    font-size: 19px;
+    padding-left: 20px;
+}
+
+.li__bold {
+    font-weight: bold;
+}
+/* Stlying below spefically for About Us Page */
+
+.home-container {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 500px; 
+    justify-content: center;
+    align-items: center;
+}
+.homeBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    height: 400px;
+    padding: 20%;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    background-size: cover;
+    position: relative;
+    text-align: center;  
+}
+.london{
+    background-image: url('https://www.londoneye.com/media/iazfrx5g/standard-ticket.jpg?anchor=center&mode=crop&width=600&height=460')
+}
+.cardiff {
+    background-image: url('https://www.ontheluce.com/wp-content/uploads/2018/04/cardiff-bay.jpg')
+}
+.glasgow {
+    background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c7/ab/93/the-university-of-glasgow.jpg?w=700&h=500&s=1')
+}
