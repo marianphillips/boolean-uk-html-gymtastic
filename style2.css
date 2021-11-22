@@ -4,15 +4,19 @@
     padding: 0;
 }
 
-header {
+header,
+.list {
     background-color: hsl(203deg 52% 43%);
     color: white;
-    display: flex;
-    align-items: center;
 }
 
-.span-header {
-    padding: 25px;
+header {
+    padding: 20px;
+}
+
+header li {
+    display: inline;
+    margin: 10px;   
 }
 
 a {
@@ -33,7 +37,8 @@ p {
     padding:10px 0px;
 }
 
-.span-membership {
+.button-membership {
+    display: inline-block;
     padding: 13px 20px;
     border: solid 2px coral;
     border-radius: 10px;
@@ -41,40 +46,51 @@ p {
     background-color: white;
 }
 
-.span-social {
+.button-membership:hover {
+    font-weight: bold;
+    background-color:black;
+    opacity: 50%;
+}
+
+.button-social {
+    display: inline-block;
     padding: 13px 30px;
     border: solid 1px black;
     border-radius: 10px;
-    margin: 15px 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     color: white;
     font-size: larger;
     font-weight: bold;
 }
 
-.span-one {
+.button-social:hover {
+    opacity: 50%;
+}
+
+.instagram {
     background-color: rgba(135,75,244,255);
     margin-left: 0px;
 }
 
-.span-two {
+.facebook {
     background-color: #3578ea;    
 }
 
-.span-three {
+.youtube {
     background-color: #ea3223;
 }
 
 
 .list {
-    background-color: hsl(203deg 52% 43%);
-    color: white;
     padding: 10px;
 }
 
-ul, ol {
+.list li  {
     list-style-type: none;
     padding-left: 20px;
 }
+
 
 .popular {
     font-size: 19px;
@@ -83,6 +99,36 @@ ul, ol {
 
 .li__bold {
     font-weight: bold;
+}
+
+.ul__indent {
+    padding-left: 30px;
+}
+
+img {
+    height: 100px;
+    width: auto;
+    border-radius: 50%;
+    margin:10px;
+}
+
+.testimonial {
+    display: inline-block;
+    vertical-align: top;
+    height: 200px;
+    width: 250px;
+    padding: 40px;
+    border: solid 1px rgb(77, 37, 37);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 10px;
+    text-align: center;
+    color: darkslategray;
+}
+
+.testimonial p,
+.testimonial h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 /* Stlying below spefically for About Us Page */
 
@@ -94,20 +140,20 @@ ul, ol {
     align-items: center;
 }
 .homeBox {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     box-sizing: border-box;
     height: 400px;
-    padding: 20%;
+    padding: 30%;
     margin: 10px;
-    text-decoration: none;
     color: black;
     font-weight: bold;
     background-size: cover;
     position: relative;
     text-align: center;  
 }
+.homeBox:hover {
+    opacity: 0.6;
+}
+
 .london{
     background-image: url('https://www.londoneye.com/media/iazfrx5g/standard-ticket.jpg?anchor=center&mode=crop&width=600&height=460')
 }
@@ -117,3 +163,4 @@ ul, ol {
 .glasgow {
     background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/c7/ab/93/the-university-of-glasgow.jpg?w=700&h=500&s=1')
 }
+
